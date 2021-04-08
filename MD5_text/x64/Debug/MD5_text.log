@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\练习\VS练习\MD5_text\main.cpp(39,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  MD5_text.vcxproj -> D:\练习\VS练习\MD5_text\x64\Debug\MD5_text.exe

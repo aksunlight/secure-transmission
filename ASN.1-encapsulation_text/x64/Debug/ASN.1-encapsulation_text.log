@@ -1,0 +1,9 @@
+﻿  BaseASN1.cpp
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(360,48): warning C4244: “=”: 从“ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(374,55): warning C4244: “=”: 从“ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(494,42): warning C4244: “初始化”: 从“const ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(577,23): warning C4244: “初始化”: 从“const ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(796,23): warning C4244: “初始化”: 从“const ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(817,55): warning C4244: “=”: 从“ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+D:\练习\VS练习\ASN.1-encapsulation_text\BaseASN1.cpp(1017,53): warning C4244: “初始化”: 从“const ITCAST_UINT32”转换到“ITCAST_UINT8”，可能丢失数据
+  ASN.1-encapsulation_text.vcxproj -> D:\练习\VS练习\ASN.1-encapsulation_text\x64\Debug\ASN.1-encapsulation_text.exe
