@@ -1,9 +1,7 @@
-﻿  itcastderlog.c
-D:\练习\VS练习\安全传输平台\ASN.1_text\itcastderlog.c(45,12): warning C4013: “open”未定义；假设外部返回 int
-D:\练习\VS练习\安全传输平台\ASN.1_text\itcastderlog.c(105,7): warning C4013: “write”未定义；假设外部返回 int
-D:\练习\VS练习\安全传输平台\ASN.1_text\itcastderlog.c(109,7): warning C4013: “close”未定义；假设外部返回 int
-  itcast_asn1_der.c
-  main.c
-  teacher.c
+﻿  itcast_asn1_der.c
+  itcastderlog.c
+D:\练习\VS练习\ASN.1_text\itcastderlog.c(45,12): warning C4013: “open”未定义；假设外部返回 int
+D:\练习\VS练习\ASN.1_text\itcastderlog.c(105,7): warning C4013: “write”未定义；假设外部返回 int
+D:\练习\VS练习\ASN.1_text\itcastderlog.c(109,7): warning C4013: “close”未定义；假设外部返回 int
   正在生成代码...
-  ASN.1_text.vcxproj -> D:\练习\VS练习\安全传输平台\ASN.1_text\Debug\ASN.1_text.exe
+  ASN.1_text.vcxproj -> D:\练习\VS练习\ASN.1_text\Debug\ASN.1_text.exe

@@ -1,2 +1,1 @@
 D:\练习\VS练习\ASN.1_text\Debug\ASN.1_text.exe
-D:\练习\VS练习\安全传输平台\ASN.1_text\Debug\ASN.1_text.exe
