@@ -46,10 +46,23 @@ void getHMAC(const char* str, const char* key, char* result)
 	}
 }
 
-int main()  //hmac_test
+void getHMAC_SHA256(const char* str, const char* key, char* result)
 {
-	char result[64] = { 0 };
-	getHMAC("I an plaintext", "I am key", result);
+	const EVP_MD* md = EVP_sha256();
+	unsigned char md2[32] = { 0 };  //hmac-sha256摘要算法生成摘要长度为258位；
+	HMAC(md, key, strlen(key), (unsigned char*)str, strlen(str), md2, NULL);
+
+	for (int i = 0; i < 32; ++i)
+	{
+		sprintf(&result[i * 2], "%02x", md2[i]);
+	}
+
+}
+
+int main()  //签名算法测试
+{
+	char result[256] = { 0 };
+	getHMAC_SHA1("I an plaintext", "I am key", result);
 	printf("hmac value: %s\n", result);
 	system("pause");
 
